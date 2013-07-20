@@ -8,10 +8,17 @@ Author: General Assembly & Chris Castiglione
 
 /* General Styles */
 
-body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 12px;
+h2 {
+	font-family: Helvetica, Arial, serif;
+	font-size: 100px;
 	line-height: 1.1;
 	color: #000000; 
      padding: 40px;
+     text-align: center;
+     width:66%;
 }
+h1 {
+     width:34%;
+          vertical-align:right;
+
+ }
