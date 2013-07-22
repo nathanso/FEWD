@@ -31,12 +31,12 @@ h1 {
 }
 
 h2 {
+	vertical-align: center;
 	background: #35C0F2;
 	color: black;
 	padding: 5px;
-
-	-webkit-border-radius: 5px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
-	border-radius: 5px; 
+	border-radius: 50%;
+	width: 200px;
 }
 
 a {
@@ -49,6 +49,7 @@ a {
 
 
 #container {
+	text-align: center;
 	padding: 15px; /* add a bit of padding around all the content inside our container */
 	background: black; /* set the container's background to black */
 	width: 420px;
