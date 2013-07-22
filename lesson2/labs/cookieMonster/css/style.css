@@ -12,9 +12,8 @@ Developed @ General Assembly in NYC
 body {
 	color: white;	/* set the font color to white for all the content between the HTML <body></body> tags  */
 	font-size: 16px; /* specify the default font size for your site */
-
 	/* set up a background image */
-	background: url('../images/cookie-monster.jpg') no-repeat;
+	background: url('../images/wallpaper-64093.png') no-repeat;
 
 	/* the follow is the code to have the image display as a full page */
 	background-position: center;
@@ -40,19 +39,28 @@ h2 {
 }
 
 a {
+	-webkit-transition: all 2s ease;
 	color: #35C0F2;
 	text-decoration: none;
 }
-
-
+a:hover{
+		-webkit-transform-style: preserve-3d;
+	}
 /* Layout */
 
 
 #container {
-	padding: 15px; /* add a bit of padding around all the content inside our container */
-	background: black; /* set the container's background to black */
-	width: 420px;
-
-	-webkit-border-bottom-right-radius: 25px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
-	border-bottom-right-radius: 25px; 
+	-webkit-transition: all 2s ease;
+	position: relative;
+	top:100px;
+	right:-10px;
+	opacity:0.4;
+	padding: 15px ; /* add a bit of padding around all the content inside our container */
+	background: black; /* set the container's background to black */ 
+	width: 780px;
+	height: 325px;
+	-moz-border-radius-bottomright: 25px 50px;
+border-bottom-right-radius: 25px 50px;
+}
+#container:hover{opacity: 100;
 }
