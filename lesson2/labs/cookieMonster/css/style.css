@@ -30,12 +30,12 @@ h1 {
 }
 
 h2 {
+	vertical-align: center;
 	background: #35C0F2;
 	color: black;
 	padding: 5px;
-
-	-webkit-border-radius: 5px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
-	border-radius: 5px; 
+	border-radius: 50%;
+	width: 200px;
 }
 
 a {
@@ -50,6 +50,7 @@ a:hover{
 
 
 #container {
+<<<<<<< HEAD
 	-webkit-transition: all 2s ease;
 	position: relative;
 	top:100px;
@@ -64,3 +65,13 @@ border-bottom-right-radius: 25px 50px;
 }
 #container:hover{opacity: 100;
 }
+=======
+	text-align: center;
+	padding: 15px; /* add a bit of padding around all the content inside our container */
+	background: black; /* set the container's background to black */
+	width: 420px;
+
+	-webkit-border-bottom-right-radius: 25px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
+	border-bottom-right-radius: 25px; 
+}
+>>>>>>> afa47925c4bd29445327edadb02f2e3d5f64bddc
