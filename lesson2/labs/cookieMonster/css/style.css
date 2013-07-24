@@ -60,7 +60,7 @@ a:hover{
 	background: black; /* set the container's background to black */ 
 	width: 780px;
 	height: 325px;
-	-moz-border-radius-bottomright: 25px 50px;
+	-moz-border-radius-bottom-right: 25px 50px;
 border-bottom-right-radius: 25px 50px;
 }
 #container:hover{opacity: 100;

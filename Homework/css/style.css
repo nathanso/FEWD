@@ -1,11 +1,5 @@
-/* 
-
-Project Name: Cookie Monster 
-Client: Cookie Monster
-Author: Chris Castiglione | www.twitter.com/castig 
-Developed @ General Assembly in NYC
-
-*/
-
-/* General Styles */
-
+body{
+	color:white;
+	font-family: monospace;
+	background: url('../images/The Killers.jpg')no-repeat;
+}
