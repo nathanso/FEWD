@@ -1,5 +1,35 @@
 body{
-	color:white;
+	color:white	;
 	font-family: monospace;
-	background: url('../images/The Killers.jpg')no-repeat;
+	vertical-align: center;	
+	background: url('../images/paint.jpg') no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+
+#Who-we-are{background: black;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-top-right-radius: 2px;
+	-webkit-border-bottom-right-radius: 223px;
+	-webkit-border-bottom-left-radius: 1px;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-topright: 2px;
+	-moz-border-radius-bottomright: 223px;
+	-moz-border-radius-bottomleft: 1px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 223px;
+	border-bottom-left-radius: 1px;
+	width: 869px;
+	height: 328px;
+}
+
+h1{
+	margin:0px;
+	font-size:80px;
+}
+
