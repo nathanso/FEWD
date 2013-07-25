@@ -13,7 +13,7 @@ body {
 	color: white;	/* set the font color to white for all the content between the HTML <body></body> tags  */
 	font-size: 16px; /* specify the default font size for your site */
 	/* set up a background image */
-	background: url('../images/wallpaper-64093.png') no-repeat;
+	background: url('../images/wallpai per-64093.png') no-repeat;
 
 	/* the follow is the code to have the image display as a full page */
 	background-position: center;
@@ -60,7 +60,7 @@ a:hover{
 	background: black; /* set the container's background to black */ 
 	width: 780px;
 	height: 325px;
-	-moz-border-radius-bottom-right: 25px 50px;
+	-moz-border-radius-bottom-cfright: 25px 50px;
 border-bottom-right-radius: 25px 50px;
 }
 #container:hover{opacity: 100;

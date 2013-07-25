@@ -1,5 +1,6 @@
 body{
 	color:white	;
+	text-align: left;
 	font-family: monospace;
 	vertical-align: center;	
 	background: url('../images/paint.jpg') no-repeat;
@@ -24,12 +25,24 @@ body{
 	border-top-right-radius: 2px;
 	border-bottom-right-radius: 223px;
 	border-bottom-left-radius: 1px;
-	width: 869px;
-	height: 328px;
+	width: 892px;
+	height: 347px;
 }
 
-h1{
+h1:{
 	margin:0px;
 	font-size:80px;
 }
 
+.logo{transition: all 0.5s ease;
+	position: relative;
+	right: -908px;
+	top: -73px;
+}
+
+.logo:hover{
+	-o-transform:rotate(-30deg);  
+	-webkit-transform:rotate(-30deg);  
+	-moz-transform:rotate(-30deg);
+	
+}
