@@ -4,7 +4,6 @@ body{
 	color:white	;
 	text-align: left;
 	font-family: monospace;
-	vertical-align: center;	
 	background: url('../images/paint.jpg') no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -19,10 +18,28 @@ h1:{
 	font-size:80px;
 }
 
-.logo{transition: all 0.5s ease;
-	position: relative;
-	right: -908px;
-	top: -73px;
+ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px; 
+}
+
+li{
+	display: inline;
+	transition: all 2s ease;
+	-webkit-border-radius: 2px;
+	background: black;
+}
+
+li:hover{
+	transform: scale 10px [40px];
+}
+
+a{
+	color:white;
+}
+.logo{
+	transition: all 0.5s ease;s
 }
 
 .logo:hover{

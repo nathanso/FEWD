@@ -26,5 +26,37 @@ Developer @GA in NYC
 	clear: both;
 }
 
+body{background-color: blue;
+}
 
+header {
+     background-image: url(../images/background.jpg);
+     height: 162px;  
+     background-color: black;
+}
 
+.Logo {
+     height:213px;
+     position: absolute;
+     right: 42%;
+}
+
+#container {   
+     border-style:solid;
+     border-color: white;
+     background:white; 
+     width:1000px;
+     position: absolute;
+     right: 14%;
+     top: 32%;
+}
+
+p {
+     font-size: 12px;   
+     text-align: left;
+     float:right; 
+}
+
+.e-card {
+     float: left;
+}
