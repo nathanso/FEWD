@@ -26,7 +26,8 @@ Developer @GA in NYC
 	clear: both;
 }
 
-body{background-color: blue;
+body{background-color: grey;
+     width: 1423px;
 }
 
 header {
@@ -45,18 +46,43 @@ header {
      border-style:solid;
      border-color: white;
      background:white; 
-     width:1000px;
+     width: 620px;
+     margin: auto;
      position: absolute;
-     right: 14%;
-     top: 32%;
+     top: 267px;
+     right: 580px;
 }
 
 p {
      font-size: 12px;   
      text-align: left;
-     float:right; 
+      
 }
 
 .e-card {
-     float: left;
+     padding-left: 7px;
+}
+
+#link-to-nothing {
+     font-weight: bolder;
+     font-color:orange;
+     width: 
+
+}
+
+#sidebar {
+     background: white;
+     width:803px;
+}
+
+.alignright {
+     float: right; 
+}
+
+.alignleft {
+     float: left; 
+}    
+
+li {
+     list-style-type: none;
 }
