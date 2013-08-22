@@ -1,16 +1,62 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+body {
+     background-color: #cad1d7;
+     margin-left: auto ;
+     margin-right: auto ;
+     width: 1080px;
+}
+
+a {
+	display:block;
+}
+
+li {
+	float:left;
+}
+
+li a {
+	transition: ease 0.0000000001s all;
+	background-image:
+	url(../images/menu-sprite.jpg);
+	width: 136px;
+	height:60px;
+	text-indent: -9999px;
+}
+
+.Home a {
+	background-position: 0px 1px;
+	margin-right: -12px;
+}
+
+.About a {
+	background-position: 289px 0px;
+	margin-right: 3px;
+	width: 130px;
+
+}
+
+.Contact a {
+	background-position: 151px 0px;
+	margin-right: 33px;
+	width: 161px;
+}
+.
+.Home a:hover {
+	background-position: 0px 135px;
+}
+
+.About a:hover {
+	background-position: 295px 135px;
+	width: 130px;
+}
+
+.Contact a:hover {
+	background-position: 166px 133px;
+}
 
 
-/*****************************/		
-/*        GENERAL             *
-/*****************************/	
-
-
-
-
-
-/*****************************/		
-/*  CSS SPRITE NAVIGATION     *
-/*****************************/	
-	
-
-	

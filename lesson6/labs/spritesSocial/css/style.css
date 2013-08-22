@@ -1,0 +1,47 @@
+li {
+	float:left;
+}
+
+a {
+	display:block;
+}
+
+li a {
+	transition: ease 10s all;
+	background-image:
+	url(../images/socialNav.png);
+	width: 60px;
+	height:60px;
+	text-indent: -9999px;
+}
+
+.linkedin a {
+	background-position: -5px -589997px;
+}
+
+.twitter a {
+	background-position: 185px -589997px;
+}
+
+.facebook a {
+	background-position: 127px -589997px;
+}
+.rss a {
+	background-position: 71px -589997px;
+}
+
+.linkedin a:hover {
+	background-position: -5px 0px;
+}
+
+.twitter a:hover {
+	background-position: 186px 0px;
+}
+
+.facebook a:hover {
+	background-position: 127px 0px;
+}
+.rss a:hover {
+	background-position: 71px 0px;
+}
+

@@ -50,33 +50,25 @@ nav a:hover {
 	height:0;
 }
 
-/* Tablet Layout: 768px.
- * Gutters: 24px.
- * Outer margins: 28px.
- * Inherits styles from: Default Layout.
- */
+@media only screen and {max-width: 768px} and {min-width: 991px} {
+	body{ background-color: aqua;}
+	header object{
+		height:200px;
+		width:;
+	}
+}
 
+@media only screen and {max-width: 320px} and {min-width: 479px} {
+    body{ background-color: lime;}
+    header object {
+    	height:150px;
+    	
+    }
+}
 
+@media only screen and {max-width: 480px} and {min-width: 767px} {
 
-/* Mobile Layout: 320px.
- * Gutters: 24px.
- * Outer margins: 34px.
- * Inherits styles from: Default Layout.
- */
-
-
-
-/* Wide Mobile Layout: 480px.
- * Gutters: 24px.
- * Outer margins: 22px.
- * Inherits styles from: Default Layout, Mobile Layout.
- */
-
-
-
-/* Printable Layout
- * Inherits styles from: Default Layout.
- */
+}
 
 
 

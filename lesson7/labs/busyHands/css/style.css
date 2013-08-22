@@ -1,0 +1,226 @@
+/*
+Project Name: Busy Hands
+Client: Busy Hands
+Author: Chris Castiglione | www.twitter.com/castig
+Developed @ General Assembly in NYC
+Author URI: http://www.busyhands.com
+Version: 1.0
+*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+body {
+	height: 485px;
+	font-family: ariel, helvetica, san-sarif;
+}
+
+#background {
+background:url(../images/bg_wrapper.png);
+background-repeat: repeat-x;
+}
+
+#container {
+	margin :0 auto;
+	width: 1080px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu ul li {
+	float: left;
+}
+
+#menu ul li a {
+	display: block;
+	padding:36px 18px 0 18px;
+	height: 45px;
+	color: white;
+	text-decoration: none;	
+}
+
+#menu ul li a:hover {
+	text-decoration: none;
+	color:#96DDFC;
+	background-image: url(../images/bg_nav_rollover.png);
+}
+
+#logo {
+	padding-top: 25px;
+}
+
+#socialmedia {
+	float: right;
+}
+
+#socialmedia ul li {
+	float: left;
+	background:url(../images/socialNav.png);
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#socialmedia ul li a {
+	display: block;
+	height: 60px;
+	width: 60px;
+}
+
+#socialmedia ul li.linkedin {
+	background-position:0px 64px;
+}
+
+#socialmedia ul li.linkedin:hover {
+	background-position:0px 0px; 
+}
+
+#socialmedia ul li.twitter {
+	background-position:-60px 64px; 
+}
+
+#socialmedia ul li.twitter:hover {
+	background-position:-60px 0px;
+}
+
+#socialmedia ul li.facebook {
+	background-position:-120px 64px; 
+}
+
+#socialmedia ul li.facebook:hover {
+		background-position:-120px 0px; 
+}
+
+#socialmedia ul li.rss {
+	background-position:-180px 64px; 
+}
+
+#socialmedia ul li.rss:hover {
+	background-position:-180px 0px; 
+}
+
+#mainphoto {
+	line-height: 0px;
+}
+
+.photo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.shadow {
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 	 
+}
+
+#box-with-button {
+	border-style: inset;
+	padding: 25px 20px 25px;
+	border-width: 1px;
+}
+
+#box-with-button p {
+	padding-left: 20px;
+	padding-top: 0px;
+	line-height: 25px;
+}
+
+#box-with-button img.button {
+	float: right;
+}
+
+#home-boxes {
+	overflow:hidden;
+	line-height: 20px;
+}
+
+#home-boxes .home-box {
+	float:left;
+	width:320px;
+	margin-left: 60px;
+	margin-right: -45px;
+}
+
+#home-boxes .home-box img {
+border:6px solid #E2E2E2;
+}
+
+#home-boxes .home-box img:hover {
+border-color:#F9F9F9;
+}
+
+#home-boxes .last{
+margin-right:0; /* removes the right margin so that the image is both flush right, and so that it doesn't get pushed down to the next line */
+}
+
+#home-boxes .home-box h2 {
+padding: 10px 0 15px 0;
+}
+
+footer {
+background:#000;
+padding-top:32px;
+margin-top: 18px;
+}
+
+#footer-widgets-inner {
+width:960px;
+margin:0 auto;
+padding:20px 0 35px;
+overflow:hidden;
+}
+
+#footer-widgets-inner .box-footer {
+float:left;
+width:210px;
+padding-right:30px;
+overflow:hidden;
+margin-bottom:40px;
+}
+
+#footer-widgets-inner .middle-widget {
+width:400px;	
+}
+
+#footer-widgets-inner h2 {
+font-size:20px;
+border-bottom:1px solid #292929;
+padding:7px 0 12px;
+margin-bottom:2px;
+color:#ccc;
+}
+
+#footer-widgets-inner .box-footer ul li {
+padding:7px 0;
+border-bottom:1px solid #292929;
+color:#986123;
+font-size:10px;
+font-style:italic;
+}
+
+#footer-widgets-inner .box-footer ul li a {
+text-decoration:none;
+color:#515151;
+font-size:13px;
+font-style:normal;
+}
+
+#footer-widgets-inner .box-footer ul li a:hover {
+color:#ccc;
+}
+
+.textwidget {
+	color: white;
+	line-height: 15px;
+}
